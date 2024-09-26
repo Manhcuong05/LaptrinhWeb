@@ -7,12 +7,12 @@ MSSV: BIT230069
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang chủ - Nguyễn Lê Dương</title>
+    <title>Trang chủ - Nguyễn Mạnh Cường</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Nguyễn Lê Dương - Trang chủ Bài Tập</h1>
+        <h1>Nguyễn Mạnh Cường - Trang chủ Bài Tập</h1>
     </header>
     <main>
         <section>
