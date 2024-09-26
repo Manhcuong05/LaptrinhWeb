@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-section {
+  width: 40%;
+  padding: 50px;
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Căn phần đăng nhập lên phía trên */
+}
+
+.login-section h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.login-section a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.login-section label {
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.login-section input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #929292;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 22px;  /* Điều chỉnh kích thước icon mắt */
+  height: 20px;
+}
+
+.password-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -10px; /* Đưa phần quên mật khẩu lên gần khung mật khẩu */
+  margin-bottom: 30px;
+}
+
+.forgot-password {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+
+.password-options p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.password-options a {
+  color: #0033a0;
+  text-decoration: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #0033a0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #00297a;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.register-link a {
+  color: #0033a0;
+  text-decoration: none;
+}
+
+.promo-section {
+  text-align: center;
+  width: 60%;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo-section img {
+  width: 80%;
+  object-fit: cover;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Liên kết JavaScript -->
+    <script src="file.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="login-section">
+            <a href="#">&#60; Quay lại Trang chủ</a>
+            <h1>Đăng nhập</h1>
+            <form id="loginForm" action="#" method="post">
+                <label for="email">Email đăng nhập</label>
+                <input type="email" id="email" placeholder="Vui lòng nhập email" required>
+                <small id="emailError" style="color: red;"></small>
+
+                <label for="password">Mật khẩu</label>
+                <div class="password-container">
+                    <input type="password" id="password" placeholder="Vui lòng nhập mật khẩu" required>
+                    <img src="Eye_close.png" alt="eye-icon" class="toggle-password" id="togglePassword" />
+                </div>
+                <small id="passwordError" style="color: red;"></small>
+
+                <div class="password-options">
+                    <a href="#" class="forgot-password">Quên mật khẩu</a>
+                </div>
+
+                <button type="submit" class="login-btn">Đăng nhập</button>
+                <p>Bạn chưa có tài khoản? <a href="#">Đăng ký</a></p>
+            </form>
+        </div>
+        <div class="promo-section">
+            <img src="https://bienchinhchu.com/images/userlogin1.png" alt="Promo Image">
+        </div>
+    </div>
+</body>
+</html>
