@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -38,4 +39,46 @@ footer {
     background-color: rgb(227, 224, 224);
     text-align: center;
     padding:5px;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(227, 224, 224);
+    text-align: center;
+    padding:20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: auto;
+    /* padding: 10px; */
+}
+
+.one, .two, .three {
+    /* text-align: center; */
+    height: 150px;
+}
+
+.one {
+    background-color: rgb(142, 141, 141);
+}
+
+.two {
+    background-color: rgb(172, 172, 172);
+}
+
+.three {
+    background-color: rgb(207, 207, 207);
+}
+
+footer {
+    background-color: rgb(227, 224, 224);
+    text-align: center;
+    padding:5px;
+>>>>>>> de4fe5e24f7f55af8ea590b4f7295eac118f1421
 }
