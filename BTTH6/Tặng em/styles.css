@@ -1,0 +1,48 @@
+/* Reset mặc định của trình duyệt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Thiết kế cho trang chúc mừng */
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.chucmung-container {
+    background-color: rgba(255, 182, 193, 0.8);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 800px;
+}
+
+.chucmung-container h1 {
+    font-size: 36px;
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+.chucmung-container p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Khung chứa ảnh */
+.image-container {
+    margin-top: 30px;
+}
+
+.chucmung-image {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
