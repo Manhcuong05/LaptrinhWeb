@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(227, 224, 224);
+    text-align: center;
+    padding:20px;
+}
+
+main {
+    display: flex;
+    /* padding: 10px; */
+    /* font-size: 30px; */
+}
+
+.one, .two, .three {
+    /* text-align: center; */
+    height: 150px;
+    /* font-size: 30px; */
+    width: 33.33%;
+}
+
+.one {
+    background-color: rgb(142, 141, 141);
+}
+
+.two {
+    background-color: rgb(172, 172, 172);
+}
+
+.three {
+    background-color: rgb(207, 207, 207);
+}
+
+footer {
+    background-color: rgb(227, 224, 224);
+    text-align: center;
+    padding:5px;
+}
