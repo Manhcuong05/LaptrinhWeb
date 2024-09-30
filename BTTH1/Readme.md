@@ -1,6 +1,6 @@
 # Ảnh chụp màn hình kết quả
 
-![Hình ảnh kết quả](d:\LaptrinhWeb\BTTH1\BTTH1.png)
+Link:https://kindly-lackadaisical-molecule.glitch.me/BTTH1/B1.html
 
 # Thông tin sinh viên
 -Tên: Nguyễn Mạnh Cường
