@@ -9,5 +9,5 @@
 </body>
 </html>
 
-![Anh](result/Flex.png)
-![Anh](result/Grid.png)
+![Anh](result\FLEX.png)
+![Anh](result\GRID.png)
