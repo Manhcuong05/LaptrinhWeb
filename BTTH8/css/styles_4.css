@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+img {
+    height: 16px;
+    /* background-size: contain; */
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+.header_bar {
+    background-color: #FFF;
+}
+
+.container {
+    background-color: rgb(213, 51, 205);
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left, .right {
+    /* margin: 10px; */
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.left {
+    justify-self: start;
+}
+
+.right {
+    justify-self: end;
+}

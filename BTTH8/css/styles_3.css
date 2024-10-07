@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+img {
+    height: 16px;
+    background-size: contain;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+.header_bar {
+    background-color: #FFF;
+}
+
+.container {
+    background-color: rgb(205, 70, 194);
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right {
+    margin: 10px;
+}

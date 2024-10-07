@@ -1,0 +1,56 @@
+/* Reset */
+body{
+	margin: 0px;
+	padding: 0px;
+}
+ul, li{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+}
+/* End Reset */
+
+/* Header bar */
+.header_bar{
+	height: 30px;
+	width: 100%;
+	background: #FFF;
+	border-bottom: 1px solid #E5E5E5;
+}
+.container{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	background: #FFF;
+}
+.container ul li{
+	margin: 0px 10px;
+	height: 30px;
+	line-height: 30px;
+}
+li.left{
+	float: left;
+}
+li.right{
+	float: right;
+}
+.icon_cart{
+	background: url("../images/cart.png") no-repeat center;
+    height: 16px;
+    width: 16px;
+	background-size: contain;
+}
+.icon_eye{
+	background: url("../images/eye.png") no-repeat center;
+    height: 16px;
+    width: 16px;
+	background-size: contain;
+}
+.icon_user{
+	background: url("../images/user.png") no-repeat center left;
+	background-size: 16px;
+	padding-left: 20px;
+}
