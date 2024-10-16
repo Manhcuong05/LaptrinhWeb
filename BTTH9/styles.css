@@ -340,3 +340,112 @@
 .pic img {
     margin: -2px -4px 0 0; /* Điều chỉnh khoảng cách cho hình ảnh */
 }
+.body_2 {
+    position: relative;
+    /* background-color: #333; */
+    margin-bottom: 250px; /* Thay đổi vị trí nếu cần */
+    /* margin-left:400px; */
+}
+.TronVang{
+    position: absolute;
+    left:500px;
+    top:350px
+    
+}
+.Anh {
+    position: relative; /* Đặt "Anh" ở vị trí tương đối để chứa "Video" */
+    display: inline-block; /* Đảm bảo "Anh" bao quanh phần tử "Video" */
+}
+
+.Video {
+    position: absolute; /* "Video" sẽ được đặt theo dạng tuyệt đối để căn giữa */
+    top: 45%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Đảm bảo căn giữa chính xác */
+}
+.Khuyet{
+    position: absolute;
+    left:800px;
+    top:100px
+}
+.Great{
+    position: absolute;
+    left:850px;
+    top:120px
+}
+.Product{
+    position: absolute;
+    left:850px;
+    top:250px
+}
+.body_3 {
+    position: relative;
+    height: 600px;
+    width: 1500px;
+    margin-top: 20px; 
+}
+.Tex1 {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Tex2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 70px;
+}
+.Dot{
+        position: absolute;
+        left:280px;
+        top:100px
+}
+.TronD{
+    position: absolute;
+    left:65px;
+    top:480px
+}
+.Anh3{
+    position: relative;
+    left:0px;
+    top:150px
+}
+.Group1{
+    position: absolute;
+    left:600px;
+    top:250px
+}
+.TronV{
+    position: absolute;
+    right:150px;
+    top:250px
+}
+.Group2{
+    position: absolute;
+    top :150px;
+    right:50px
+}
+.body_4 {
+    position: relative;
+    height: 600px;
+    width: 1500px;
+    margin-top: 20px; 
+}
+.News{
+    position: absolute;
+    left:50px;
+    top:100px
+}
+.body_5 {
+    position: relative;
+    height: 600px;
+    width: 1500px;
+    margin-top: 20px; 
+}
+.Footer{
+    position: absolute;
+    left:50px;
+    top:100px
+}
