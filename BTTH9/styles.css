@@ -6,10 +6,14 @@
         font-family: 'Arial', sans-serif;
     }
 
-   
+    .main{
+        
+            height: 10000px; /* Điều chỉnh chiều cao này theo nhu cầu */
+            background-color: #fff; /* Bạn có thể thêm màu nền nếu cần */
+        }
     .top-menu {
         width: 100%;
-        height: 80px;
+        height: 70px;
         background-color: #fff;
         display: flex;
         align-items: center;
@@ -20,6 +24,8 @@
         top: 0;
         left: 0;
         z-index: 1000;
+            
+        
     }
 
     .logo {
@@ -43,7 +49,7 @@
   
     .headline {
         margin-top: 80px;
-        height: 100vh;
+        height: 85vh;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -53,6 +59,9 @@
         overflow: hidden;
     }
 
+    .content {
+        margin-top: -200px; /* Điều chỉnh giá trị này cho phù hợp với yêu cầu của bạn */
+    }
     
     .content {
         max-width: 700px;
@@ -91,52 +100,59 @@
 
     
     .hero-image {
-        width: 600px;
+        width: 740px;
         height: auto;
         position: relative;
         z-index: 1; 
+        margin-top: -250px; /* Điều chỉnh giá trị âm để nâng ảnh lên */
+        top:5%;                   /* Khoảng cách từ trên xuống */
+        right: -100px;              /* Đặt sát mép phải (có thể điều chỉnh) */
+        z-index: 1;                /* Đảm bảo hình ảnh nằm trên các phần tử khác */
     }
+    
 
  
     .ellipse {
         position: absolute;
-        top: 25%;
-        left: 53%;
-        transform: translate(-50%, -10%);
+        top:23.7%; 
+        left: 46.8%; /* Điều chỉnh giá trị left để căn sát mép trái ảnh */
+        transform: translate(5%, -120%); /* Giữ hoặc thay đổi để căn chỉnh vị trí theo chiều ngang */
         z-index: 0;
         width: 120px; 
         height: 120px; 
     }
+    
 
 
     .rectangle {
         position: absolute;
-        bottom: 10%;
+        bottom: 14%; /* Giảm giá trị này để nâng hình Rectangle lên */
         right: 10%;
         z-index: 0;
-        width: 120px; 
-        height: 120px; 
+        width: 175px; 
+        height: 175px; 
     }
-
+    
    
     .dot-ornament {
         width: 404px; 
         height: 154px; 
         position: absolute;
-        top: 469px;
+        top:50%; 
         left: 68px; 
         z-index: 0;
     }
 
 
 .our-client {
-    text-align: center;
-    padding: 80px 0;
-    background-color:   #ffffff;
+    text-align: left;
+    padding: 40px 100px; /* Giảm padding nếu cần */
+    background-color: #ffffff;
+    margin-top: 40px; /* Thay đổi thành giá trị dương để hạ phần này xuống */
 }
 
 .our-client h2 {
-    font-size: 32px;
+    font-size: 40px;
     color: #333;
     margin-bottom: 10px;
 }
@@ -147,19 +163,180 @@
     margin-bottom: 40px;
 }
 
+.our-client {
+    display: flex; /* Sử dụng flexbox để căn ngang phần tiêu đề và logo */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: space-between; /* Tạo khoảng cách giữa phần text và phần logo */
+}
+
+
+.our-client {
+    padding: 20px 5%; /* Giảm padding để nâng lên */
+    background-color: #ffffff;
+    margin-top: 0px; /* Loại bỏ margin-top để nâng phần này lên */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.client-header {
+    max-width: 40%;
+    text-align: left;
+}
+
 .client-logos {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    gap: 30px;
 }
 
 .client-logos img {
-    max-width: 120px;
+    max-width: 150px;
     height: auto;
     transition: transform 0.3s;
 }
 
 .client-logos img:hover {
     transform: scale(1.1);
+}
+
+.body_1 {
+    position: relative;
+    height: 1000px;
+    width: 1500px;
+    /* background-color: #333; */
+    margin-top: 20px; /* Thay đổi vị trí nếu cần */
+    /* margin-left:400px; */
+}
+.HinhTron{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    bottom: 350px;
+    right: 100px;
+}
+.EXO{
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    z-index: 1;
+    top: 450px;
+    left: 50px;
+}
+.box1 {
+    position: absolute;
+    height: 400px; /* Giữ nguyên chiều cao */
+    width: 800px;  /* Giữ nguyên chiều rộng */
+    background-color: #e7f7ff;
+    z-index: 1;
+    right: 0;
+    top: 100px;
+    border-radius: 20px 0 0 20px;
+}
+
+.box1-1 {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    z-index: 1;
+    top: 200px;
+    left: 50px;
+    border-radius: 80px 0 0 0;
+}
+
+.box {
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box h2 {
+    padding-top: 120px;
+}
+
+.body_1 > h2,
+.body_1 div {
+    font-size: 14px;
+}
+.box2 {
+    top: 55px;
+    right: 550px;
+    z-index: 3;
+}
+
+.box3 {
+    bottom: 410px;
+    right: 550px;
+    z-index: 3;
+}
+
+.box4 {
+    top: 10px;
+    right: 250px;
+    z-index: 3;
+}
+
+.box5 {
+    bottom: 450px;
+    right: 250px;
+    z-index: 3;
+}
+
+.subcontent3 {
+    position: absolute;
+    height: 500px;
+    width: 350px;
+    background-color: rgba(120, 125, 130, 0);
+    z-index: 2;
+    top: 300px;
+    left: 70px;
+}
+
+.subcontent3 h3 {
+    padding: 0 22px;
+    font-size: 32px;
+    color: #333;
+}
+
+.subcontent3 div {
+    padding: 20px 10px 0 10px;
+}
+
+.pic {
+    position: absolute;
+    z-index: 5;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(223, 236, 238);
+}
+
+.pic1 {
+    right: 610.5px;
+    top: 78px;
+}
+
+.pic2 {
+    right: 610.5px;
+    top: 370px;
+}
+
+.pic3 {
+    right: 310px;
+    top: 40px;
+}
+
+.pic4 {
+    right: 310px;
+    top: 320px;
+}
+
+.pic img {
+    margin: -2px -4px 0 0; /* Điều chỉnh khoảng cách cho hình ảnh */
 }
