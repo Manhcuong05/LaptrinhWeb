@@ -407,11 +407,17 @@
     left:65px;
     top:480px
 }
-.Anh3{
+.Anh3 {
     position: relative;
-    left:0px;
-    top:150px
+    left: 0px;
+    top: 150px; /* Thêm dấu chấm phẩy ở đây */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.Anh3:hover {
+    transform: scale(1.1);
+}
+
 .Group1{
     position: absolute;
     left:600px;
@@ -449,3 +455,37 @@
     left:50px;
     top:100px
 }
+/* Đặt hiệu ứng chung cho các mục */
+.Anh3, .box, .pic, .client-logos img, .Group1, .Group2, .TronV, .Anh, .News, .Footer {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Anh3:hover, .box:hover, .pic:hover, .client-logos img:hover, .Group1:hover, .Group2:hover, .TronV:hover, .Anh:hover, .News:hover, .Footer:hover {
+    transform: scale(1.1);
+}
+
+/* Các lớp riêng biệt đã có trong CSS của mày */
+/* Dưới đây chỉ là ví dụ thêm hiệu ứng hover vào các mục khác nhau */
+
+/* Ví dụ: Các box với hiệu ứng hover */
+.box:hover {
+    transform: scale(1.1);
+}
+
+/* Ảnh khách hàng với hiệu ứng hover */
+.client-logos img:hover {
+    transform: scale(1.1);
+}
+
+/* Hình tròn TronV với hiệu ứng hover */
+.TronV:hover {
+    transform: scale(1.1);
+}
+
+/* Các mục khác tương tự */
+.Group1:hover, .Group2:hover, .Anh:hover, .News:hover, .Footer:hover {
+    transform: scale(1.1);
+}
+
+/* Điều chỉnh theo ý thích của mày */
+
