@@ -3,18 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Business Structure Form</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div id="main">
-        <div id="header">
-            <div id="h1"><img src="img/Button.png" alt="arrow"></div>
-            <div id="h2">Account verification</div>
-            <div id="h3">In progress</div>
+    <header class="header">
+        <img src="img/arrow-left.png" alt="vec" class="arrow">
+        <span>Account verification</span><a href="#">In progress</a>
+    </header>
+
+    <div class="box">
+            <div class="box_header">
+                <div class="number">
+                <div class="number1"><p>1</p></div><div class="line1"> <div class="line_full"></div></div>
+                <div class="number2"><p>2</p></div><div class="line2"></div>
+                <div class="number3"><p>3</p></div><div class="line3"></div>
+                <div class="number4"><p>4</p></div>
+                </div>
+            </div>
+            
+            <div class="box_body">
+                <h2>Business structure</h2>
+                <p>DigiRoad collects this information to better understand and serve your business.</p>
+                <form class="box_mid">
+                    <div class="content1">
+                        <div class="content-h1">
+                            <label for="email">Business Email</label>
+                            <input type="email" id="email" placeholder="Email" required>
+                        </div>
+                        
+                        <div class="content-h1">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" placeholder="Phone" required>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="content2">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" placeholder="Address line" required class="address2">
+                    <input type="text" id="city" placeholder="City" required class="city">
+                    <input type="text" id="zip" placeholder="Zip" required class="zip">
+                    </div>
+                    <button type="submit">Continue →</button>
+                </form>
+             </div>
+         </div>
+
+         <div class="leftbackgroud1"></div>
+         <div class="leftbackgroud2"></div>
+         <div class="rightbackgroud1"></div>
+         <div class="rightbackgroud2"></div>
+         <div class="rightbackgroud3"></div>
         </div>
-        <div id="content"></div>
-        <div id="box"></div>
     </div>
 </body>
 </html>
